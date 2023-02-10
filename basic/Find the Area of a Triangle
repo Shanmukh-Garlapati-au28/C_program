@@ -1,0 +1,11 @@
+//Find the Area of a Triangle
+#include <stdio.h>
+main(){
+    int length, breath,trangle;
+    printf ("enter the length value");
+    scanf ("%d",&length);
+    printf ("enter the breath value");
+    scanf ("%d", &breath);
+    trangle = length * breath;
+    printf ("%d", trangle);
+}
