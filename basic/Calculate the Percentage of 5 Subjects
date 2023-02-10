@@ -1,0 +1,13 @@
+//Calculate the Percentage of 5 Subjects
+
+#include <stdio.h>
+main(){
+    int a,b,c,d,e,g;
+    float f,h;
+    printf ("enter the a value");
+    scanf ("%d%d%d%d%d%d",&a,&b,&c,&d,&e,&g);
+    f=a+b+c+d+e+g;
+    //printf ("%f\n",f);
+    h = f/600*100;
+    printf ("%f",h);
+}
