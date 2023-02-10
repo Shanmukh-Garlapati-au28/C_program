@@ -1,0 +1,12 @@
+///Read Integer N and Print the First Three Powers (N^1, N^2, N^3)
+
+#include<stdio.h>
+main(){
+    int a,b,c,d;
+    printf ("enter the value");
+    scanf ("%d",&a);
+    b=a*1;
+    c=a*a;
+    d=a*a*a;
+    printf ("%d\n%d\n%d",b,c,d);
+}
