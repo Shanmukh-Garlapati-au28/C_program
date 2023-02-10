@@ -1,0 +1,15 @@
+//Program to Display the Size of the Different Datatype
+
+#include<stdio.h>
+main(){
+    char a;
+    int b;
+    float c;
+    double d;
+    //printf ("enter the value");
+    //scanf ("%c",&a);
+    printf ("%d\n",sizeof a);
+    printf ("%d\n",sizeof b);
+    printf ("%d\n",sizeof c);
+    printf ("%d",sizeof d);
+}
