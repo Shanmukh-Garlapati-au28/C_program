@@ -1,0 +1,14 @@
+//16)	Program to Check Leap Year or Not Using If /Else
+
+#include<stdio.h>
+main(){
+    int a;
+    printf ("enter the vlaue");
+    scanf ("%d",&a);
+    if (a%4==0){
+        printf ("leap year");
+    }
+    else{
+        printf("not leap year");
+    }
+}
