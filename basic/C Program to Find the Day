@@ -1,0 +1,30 @@
+//22)	C Program to Find the Day
+
+#include <stdio.h>
+main(){
+    int a;
+    printf ("enter the value");
+    scanf ("%d",&a);
+    switch (a){
+        case 1:
+        printf ("mon");
+        break;
+        case 2:
+        printf ("thu");
+        break;
+        case 3:
+        printf ("wen");
+        break;
+        case 4:
+        printf ("thus");
+        break;
+        case 5:
+        printf ("fri");
+        break;
+        case 6:
+        printf ("sat");
+        break;
+        case 7:
+        printf ("sun");
+    }
+}
