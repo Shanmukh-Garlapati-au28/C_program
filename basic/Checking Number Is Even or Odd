@@ -1,0 +1,14 @@
+//15)	Checking Number Is Even or Odd
+
+#include <stdio.h>
+main(){
+    int a;
+    printf ("enter the vlaue");
+    scanf ("%d",&a);
+    if (a%2==0){
+        printf ("even");
+    }
+    else{
+        printf ("odd");
+    }
+}
