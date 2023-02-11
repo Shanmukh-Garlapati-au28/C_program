@@ -1,0 +1,11 @@
+//20)	Count Number of Digits of an Integer
+
+#include<stdio.h>
+main(){
+    int b=255556,count=0;
+    while (b>0){
+        b=b/10;
+        count =count+1;
+    }
+    printf ("%d\n",count);
+}
