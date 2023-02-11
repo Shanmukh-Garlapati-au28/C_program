@@ -1,0 +1,11 @@
+//18)	Calculate the Sum of Natural Numbers Using While Loop
+
+#include <stdio.h>
+main(){
+    int a=1,b=0;
+    while (a<10){
+        b=a+b;
+        a++;
+    }
+    printf ("%d\n",b);
+}
