@@ -1,0 +1,14 @@
+//21)	Check Whether a Number Is Divisible by 11 Using (Vedic Maths)
+
+#include <stdio.h>
+main(){
+    int a;
+    printf ("enter the a value");
+    scanf ("%d",&a);
+    if (a%11==0){
+        printf ("it will divided by 11");
+    }
+    else{
+        printf ("it will not divided by 11");
+    }
+}
