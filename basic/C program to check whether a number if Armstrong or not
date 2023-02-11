@@ -1,0 +1,21 @@
+//C program to check whether a number if Armstrong or not
+
+#include<stdio.h>
+main(){
+    int a,b,c=0,k;
+    printf ("enter the vlaue");
+    scanf ("%d",&a);
+k=a;
+    while (a>0){
+    b= a%10;
+    a=a/10;
+    c=b*b*b+c;
+}
+printf("%d\n",c);
+if (c==k){
+    printf ("amstrom");
+}
+else {
+    printf ("not a amstrom");
+}
+}
