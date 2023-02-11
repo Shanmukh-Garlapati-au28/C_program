@@ -1,0 +1,22 @@
+//prime or not prime
+
+#include<stdio.h>
+main(){
+    int a,i,count=0;
+    printf ("enter the a vlaue : ");
+    scanf ("%d",&a);
+    if (a==1){
+        printf ("prime number");
+    }
+    for (i=1;i<=a;i++){
+        if(a%i==0){
+            count++;
+        }
+    }
+    if (count==2){
+        printf ("prime number");
+    }
+    else {
+        printf ("not prime  number");
+    }
+}
